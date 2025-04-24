@@ -25,7 +25,7 @@ class StressAnalysisResponse(BaseModel):
 def openai_call(prompt):
     url = "https://api.openai.com/v1/chat/completions"
     headers = {
-        "Authorization": f"Bearer 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",
+        "Authorization": f"Bearer ",
         "Content-Type": "application/json"
     }
     payload = {
