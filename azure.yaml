@@ -1,0 +1,7 @@
+name: stress-analysis
+services:
+  - name: stress-analysis
+    language: python
+    host: appservice
+    path: .
+    port: 8000
